@@ -1,0 +1,64 @@
+<!DOCTYPE html> <html><head>
+        <title>Mario jQuery Challenge</title>
+    <style>body{
+background-color: lightgreen;
+}
+
+h1{
+    text-align: center;
+}
+
+#board{
+display:none;
+}
+#game{
+    /*display:none;*/
+    position: relative;
+    height: 385px;
+    background: url("https://i.stack.imgur.com/WHu9Z.png") repeat-x;   
+    
+}
+
+#mario{
+height:100px;
+position: absolute;
+bottom: 60px;
+left: 285px;
+}
+
+#coin{
+height:50px;  
+position: absolute;
+bottom: 250px;
+left: 300px;
+}
+
+h3{
+float: right;
+margin: 25px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    display: block;
+    margin: 20px auto;
+    }</style></head>
+    <body>  
+            <h1> Mario JQuery Challenge!</h1>
+            <button id="start">Start Game</button>
+            <div id="board">
+            <div id="game">
+            <h3>Counter <span id="count">0</span></h3>
+            <img id="coin" src="https://38.media.tumblr.com/9056c3040c618c65888244befef39321/tumblr_mhpc6eUvag1rrftcdo1_500.gif">
+            <img id="mario" src="https://drpaleynoung.files.wordpress.com/2014/09/supermario_hlq6z1q4.gif">
+            
+            
+            </div>
+            <button id="jump">Jump</button>
+            </div>
+    
+
+</body></html>
